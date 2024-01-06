@@ -77,7 +77,7 @@ struct ContentView: View {
                 }
                 
                 VStack(alignment: .leading, spacing: 0) {
-                    Text("Recommended bedtime")
+                    Text("Ideal bedtime")
                         .font(.headline)
                     
                     Text("\(predictedBedtime.formatted(date: .omitted, time: .shortened))")
